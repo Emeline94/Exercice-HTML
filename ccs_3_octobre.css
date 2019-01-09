@@ -1,0 +1,113 @@
+body{
+	margin: 0px;
+	font-family: sans-serif;
+}
+
+.logo{
+	width: 180px;
+	float: left;
+}
+
+header{
+	background-color: #efefef;
+	padding: 10px;
+}
+
+.menu{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+/*Applique sur les a dans la classe .menu*/
+
+.menu a{
+	margin: 0 10px;
+	text-decoration: none;
+	color: #a90a0a;
+	font-weight: 600;
+	font-size: 14px;
+	font-style: italic;
+}
+
+.adrec-center{
+	text-align: center;
+}
+
+.page-title{
+	text-align: center;
+}
+
+.p{
+	font-size: 13px;
+	text-align: justify;
+}
+
+.home-top-section{
+
+}
+
+.adrec-container{
+	padding: 0 50px
+}
+
+.adrec-btn.white-btn{
+	background: white;
+	color: gray;
+}
+
+.adrec-btn{
+	background: #eb5e07;
+	color: white;
+	padding: 5px 12px;
+	border-radius: 5px;
+	border: 1px solid black;
+	transition: 0.5s;
+}
+
+.adrec-btn:hover{
+	background: black;
+}
+
+
+.adrec-btn.white-btn:hover{
+
+	background: #ddd;
+}
+
+.gallery{
+	min-height: 190px;
+
+}
+
+.gallery img{
+	float: left;
+	width: 25%;
+	
+}
+
+.adrec-form{
+	width: 80%;
+	margin:75px auto;
+}
+
+.adrec-form input,
+.adrec-form textarea,
+.adrec-form select
+{
+	display: block;
+	width: 100%;
+	margin-bottom: 12px;
+}
+
+.adrec-form label{
+	font-size: 13px;
+}
+
+.adrec-form input[type="submit"]{
+
+	background: orange;
+	display: inline;
+	border : 0;
+	width: unset;
+}
